@@ -1,0 +1,14 @@
+.movie-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+}
+
+.movie-item fa-icon {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.movie-item fa-icon:hover {
+  color: #ff6767;
+}
